@@ -1,32 +1,40 @@
 #include <stdio.h>
 
-int main(int argc,char*argv[])
-{
-    int qian=0;
-    printf("进入存钱系统\n ");
+int main(){
+    printf("进入钱包管理系统\n");
+
+
     while(1){
-        int a=0;
-        printf("1--存钱\n");
-        printf("2--取钱\n");
-        printf("3--余额\n");
-        printf("4--退出\n");
 
+        printf("1---存钱\n");
+        printf("2---取钱\n");
+        printf("3---余额\n");
+        printf("4---退出\n");
 
-        printf("请输入功能编号\n");
-        scanf("%d,&a");
+        printf("请选择相应功能\n");
+        int code;
+        scanf("%d",&code);
 
-        if(a==1){
-            char x;
-            int cun;
-            printf("进入存钱功能，请输入要存入的金额\n");
+        if(code == 1){
 
-            scanf("%d,&cun");
-            qian=qian+cun;
-            printf("存入成功，点击回车继续\n");
-            scanf("%c",&x);
-            scanf("%c",&x);
         }
-    }
-    return 0;
 
+        if(code == 2){
+
+        }
+
+        if(code == 3){
+
+        }
+ 
+        if(code == 4){
+
+        }
+
+
+    }
+
+
+
+    return 0;
 }
