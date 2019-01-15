@@ -31,7 +31,15 @@ int main(){
         }
 
         if(code == 2){
+            printf("请输入要取出的金额:\n");
+            int qu;
+            scanf("%d",&qu);
+            qian -= qu;
 
+            printf("取出成功，点击回车继续\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
 
         if(code == 3){
